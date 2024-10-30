@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(330, 100%, 98%);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    max-width: 700px;
+}
+
+.container-card {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.produto-descricao h2 {
+    font-size: 40px;
+    font-family: "Young Serif",sans-serif;
+}
+
+.paragrafo {
+    color:hsl(30, 10%, 34%);
+    line-height: 1.5;
+}
+
+.preparacao {
+    background-color: hsla(31, 53%, 90%, 0.349);
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-family: "Outfit", sans-serif;
+    margin-top: 40px;
+}
+
+.preparacao h2 {
+    color: hsl(332, 51%, 32%);
+    font-size: 25px;
+}
+
+.ingredientes {
+    padding: 20px;
+    font-family: "Young Serif", sans-serif;
+}
+
+.ingredientes h2 {
+   color: hsl(14, 45%, 36%);
+   font-size: 25px;
+}
+
+.ingredientes li {
+    color: hsl(30, 10%, 34%);
+}
+
+.instrucoes {
+    padding: 20px;
+    font-family: "Young Serif", sans-serif;
+}
+
+.instrucoes h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 25px;
+}
+
+.instrucoes li {
+    color: hsl(30, 10%, 34%) ;
+}
+
+.nutricao h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 25px;
+    font-family:"Young Serif", sans-serif ;
+}
+
+.nutricao p {
+    color: hsl(30, 10%, 34%) ;
+}
+
+.nutricao li {  
+    color:  hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+}
+
+.valores {
+    color: hsl(14, 45%, 36%);
+    align-items: center;
+}
+
+  li {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+span {
+    font-weight: bold;
+}
+
+hr {
+    width: 100%; /* Define a largura da linha */
+    margin-top: 70px;
+    opacity: 0.2;
+}
